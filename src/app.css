@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-3xl;
+	}
+}
+
+a {
+	@apply text-pink-700 hover:text-pink-900 visited:text-pink-900;
+}
+
+body,
+html,
+#svelte {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: underline;
+}
