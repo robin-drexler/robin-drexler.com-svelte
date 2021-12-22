@@ -86,8 +86,6 @@ You can find the source code on [robin-drexler/httsleep](https://github.com/rob
 
 [https://webperfchallenge.com](https://webperfchallenge.com) allows to compare your website's Google PageSpeed score with the most popular sites in the world, giving you a hint on how well your website performs in comparison.
 
-[Read more about it here.]({% post_url 2017-01-31-making-google-pagespeed-comparable %})
-
 **Technologies used**
 
 - [React](https://facebook.github.io/react/)

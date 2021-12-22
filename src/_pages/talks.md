@@ -40,7 +40,7 @@ Topics that are covered:
 - How to make sure your site still works in a world where prerendering of entire pages is a reality.
 
 <div class="youtube-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S0LuakIy65Y" title=" preconnect, prefetch, preload, pre-what? - An introduction to Resource Hints (November 2017) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe style="width: 100%; aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/S0LuakIy65Y" title=" preconnect, prefetch, preload, pre-what? - An introduction to Resource Hints (November 2017) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Sketch
@@ -63,7 +63,7 @@ A brief rundown about potentially lesser known web technologies, including:
 - addEventListener's third parameter.
 
 <div class="youtube-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4ev8zWpKhzI" title="7+ web technologies you might not know yet (March 2017) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe style="width: 100%; aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/4ev8zWpKhzI" title="7+ web technologies you might not know yet (March 2017) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## bfcache (November 2016, lightning talk)
@@ -90,5 +90,5 @@ We will take a look at gems like cucumber and watir-webdriver and how we use tho
 [Slides on slidr.io](https://slidr.io/robin-drexler/road-to-google-cloud-print#1)
 
 <div class="youtube-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3CxTKvnqRmY" title="Road to CloudPrint (July 2012, German) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe style="width: 100%; aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/3CxTKvnqRmY" title="Road to CloudPrint (July 2012, German) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

@@ -16,11 +16,11 @@
 }
 
 a {
-	@apply text-pink-700 hover:text-pink-900 visited:text-pink-900;
+	@apply text-yellow-200 hover:text-yellow-500 visited:text-yellow-500;
 }
 
 .post-body > p {
-	@apply mb-3;
+	@apply mt-5 mb-5;
 }
 
 .post-body > ul {
