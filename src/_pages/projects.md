@@ -75,7 +75,7 @@ You can find the source code on [robin-drexler/ranmdn](https://github.com/robin
 
 [https://httsleep.herokuapp.com/](https://httsleep.herokuapp.com/) delays and proxies or redirects requests. Perfect to test how your app behaves when some resources take longer than usual to load.
 
-You can find the source code on [robin-drexler/httsleep](https://github.com/robin-drexler/httsleep) and see it in action on [this very page](httsleep.herokuapp.com/3?redirectUrl=https://www.robin-drexler.com/projects/)
+You can find the source code on [robin-drexler/httsleep](https://github.com/robin-drexler/httsleep) and see it in action on [this very page](https://httsleep.herokuapp.com/3?redirectUrl=https://www.robin-drexler.com/projects/)
 
 **Technologies used**
 

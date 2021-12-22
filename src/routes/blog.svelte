@@ -20,8 +20,6 @@
 		};
 	};
 	export let posts: PostData[] = [];
-
-	console.log(posts);
 </script>
 
 <svelte:head>

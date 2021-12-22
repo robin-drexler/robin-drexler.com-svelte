@@ -1,10 +1,11 @@
 <script context="module" type="ts">
 	import type { Load } from '@sveltejs/kit';
 	export const prerender = true;
+	export const router = false;
 
 	export const load: Load = async ({ page, fetch }) => {
 		const res = await (await fetch(`/api/page?path=${page.path}`)).json();
-
+		console.log(page.path, res.page.attributes.title);
 		if (!res.page) {
 			return;
 		}
@@ -26,7 +27,7 @@
 				formatted = prism.highlight(code, prism.languages[lang], lang);
 			}
 
-			return `<div class="mt-6 bg-blue-50 p-3 rounded">${formatted}</div>`;
+			return `<div class="mt-6 bg-gray-50 shadow-md p-3 rounded">${formatted}</div>`;
 		}
 	});
 
@@ -72,6 +73,3 @@
 <div class="mt-9 post-body">
 	{@html body}
 </div>
-
-<!-- XXX this only exists so tailwind picks up those classes. They are used in code highlight and tailwind misses those. 🤷‍♂️ -->
-<div class="bg-blue-50 p-3 rounded hidden">ddd</div>

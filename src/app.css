@@ -8,10 +8,10 @@
 	}
 
 	h2 {
-		@apply text-xl mb-4 font-semibold;
+		@apply text-2xl mb-4 font-semibold;
 	}
 	h2:not(:first-child) {
-		@apply mt-6;
+		@apply mt-9;
 	}
 }
 
