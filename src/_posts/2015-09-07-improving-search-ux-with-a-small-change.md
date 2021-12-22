@@ -6,7 +6,7 @@ date: 2015-09-07 00:00:00
 categories: ux chrome-extensions article
 ---
 
-A while ago, I created  a Chrome extension called [/search](/projects/chrome-extensions/search/ '/search').
+A while ago, I created  a Chrome extension called [/search](/projects/chrome-extensions/#search '/search').
 It focuses the first search field on any page by pressing "/", which allows for instant searching on pages like amazon.com.
 
 What always bothered me was that it only worked after the document is ready. On amazon.com that can actually take a couple of seconds. As of today, their index page consists of over 9000 lines, including tons of scripts. That just takes a while to be completely processed by browsers. (To be fair, the first bits of the page are visible pretty fast)

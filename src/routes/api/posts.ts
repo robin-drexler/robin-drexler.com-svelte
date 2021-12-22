@@ -4,7 +4,6 @@ import { basename } from 'path';
 
 export const get: RequestHandler = async () => {
 	const posts = await getPosts();
-	console.log(posts);
 	return { body: { posts } };
 };
 
