@@ -7,8 +7,8 @@
 		<a class="text-2xl font-thin" href="/">Robin Drexler</a>
 	</div>
 	<div class="flex space-x-6">
-		<a href="/blog">Blog</a>
-		<a href="/projects">Projects</a>
-		<a href="/talks">Talks</a>
+		<!-- <a href="/blog">Blog</a> -->
+		<!-- <a href="/projects">Projects</a> -->
+		<!-- <a href="/talks">Talks</a> -->
 	</div>
 </ContentWrapper>

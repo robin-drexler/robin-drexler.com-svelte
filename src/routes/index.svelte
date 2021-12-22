@@ -6,17 +6,17 @@
 		<p class="text-2xl">Hi! 👋</p>
 		<p>
 			Welcome to my website.<br />
-			I love to do stuff on and with the web. See <a href="/projects/">projects</a> for some of the
+			<!-- I love to do stuff on and with the web. See <a href="/projects/">projects</a> for some of the -->
 			things I've worked on or check&nbsp;my
 			<a href="https://github.com/robin-drexler/" title="https://github.com/robin-drexler/"
 				>Github profile</a
 			>.
 			<br /><br />
 			I also share my thoughts by
-			<a href="https://twitter.com/search?q=TIL%20from%3Arobindrexler"
+			<!-- <a href="https://twitter.com/search?q=TIL%20from%3Arobindrexler"
 				>collecting "Today I learned"-moments</a
 			>, <a href="/talks/">by giving talks</a> and on rare occasions by publishing on my
-			<a href="/blog/">blog</a>.
+			<a href="/blog/">blog</a>. -->
 		</p>
 	</div>
 </div>
