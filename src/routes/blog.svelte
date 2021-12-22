@@ -42,6 +42,3 @@
 		{/each}
 	</ul>
 </div>
-
-<!-- XXX this only exists so tailwind picks up those classes. They are used in code highlight and tailwind misses those. 🤷‍♂️ -->
-<div class="bg-blue-50 p-3 rounded hidden">ddd</div>

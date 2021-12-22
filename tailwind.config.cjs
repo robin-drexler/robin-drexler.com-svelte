@@ -1,6 +1,6 @@
 module.exports = {
 	// add this section
-	purge: ['./src/**/*.html', './src/**/*.svelte'],
+	content: ['./src/**/*.html', './src/**/*.svelte'],
 	darkMode: 'media',
 	theme: {
 		extend: {}

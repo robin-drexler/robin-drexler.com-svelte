@@ -4,7 +4,13 @@
 <h1>Robin Drexler's website</h1>
 
 <div class="my-9 flex flex-wrap md:flex-nowrap  gap-9">
-	<img src="/img/me_2019.jpg" alt="Robin Drexler" width="260" height="260" />
+	<img
+		src="/img/me_2019.jpg"
+		alt="Robin Drexler"
+		width="260"
+		height="260"
+		class="aspect-square max-h-[260px] max-w-[260px]"
+	/>
 	<div>
 		<p class="text-2xl">Hi! 👋</p>
 		<p>

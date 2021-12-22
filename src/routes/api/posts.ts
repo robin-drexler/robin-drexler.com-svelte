@@ -3,7 +3,6 @@ import frontMatter from 'front-matter';
 import { basename } from 'path';
 
 export const get: RequestHandler = async () => {
-	console.log('REQUESTED POSTS');
 	const posts = await getPosts();
 	return { body: { posts } };
 };
