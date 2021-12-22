@@ -5,7 +5,7 @@
 	import ContentWrapper from '$lib/layout/ContentWrapper.svelte';
 </script>
 
-<article class="grid grid-rows-[100px_1fr_100px] h-full">
+<article class="grid grid-rows-[auto_1fr_auto] h-full gap-9">
 	<Nav />
 	<ContentWrapper tag="main">
 		<slot />

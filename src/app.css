@@ -6,10 +6,29 @@
 	h1 {
 		@apply text-3xl;
 	}
+
+	h2 {
+		@apply text-xl mb-4 font-semibold;
+	}
+	h2:not(:first-child) {
+		@apply mt-6;
+	}
 }
 
 a {
 	@apply text-pink-700 hover:text-pink-900 visited:text-pink-900;
+}
+
+.post-body > p {
+	@apply mb-3;
+}
+
+.post-body > ul {
+	@apply list-disc list-outside mx-10;
+}
+
+.youtube-wrapper {
+	@apply flex justify-center mt-6 mb-6;
 }
 
 body,

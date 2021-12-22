@@ -9,16 +9,16 @@ export const get: RequestHandler = async ({ query }) => {
 };
 
 async function findFileForPath(path) {
-	const entries = Object.keys(import.meta.glob('../../../{_posts,_pages}/*.md'));
+	const entries = Object.keys(import.meta.glob('../../{_posts,_pages}/*.md'));
 	const slugs = entries.map((postPath) => basename(postPath, '.md'));
 
 	for (const slug of slugs) {
 		let fileContent;
 
 		try {
-			fileContent = (await import(`../../../_posts/${slug}.md`)).default;
+			fileContent = (await import(`../../_posts/${slug}.md`)).default;
 		} catch (e) {
-			fileContent = (await import(`../../../_pages/${slug}.md`)).default;
+			fileContent = (await import(`../../_pages/${slug}.md`)).default;
 		}
 
 		const result = frontMatter(fileContent) as { attributes: { permalink?: string } };

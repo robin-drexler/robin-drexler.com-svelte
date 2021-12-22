@@ -18,6 +18,8 @@
 	import prism from 'prismjs';
 
 	marked.setOptions({
+		gfm: true,
+		breaks: true,
 		highlight: function (code, lang) {
 			let formatted = code;
 			if (prism.languages[lang]) {
@@ -39,8 +41,12 @@
 	};
 	export let post: Post;
 
-	const body = marked(post.body);
-	const formattedDate = post.attributes.date
+	let body = '';
+	let formattedDate = null;
+
+	$: body = marked(post.body);
+
+	$: formattedDate = post.attributes.date
 		? new Date(post.attributes.date).toLocaleDateString('en-US', {
 				month: 'long',
 				day: 'numeric',
@@ -63,7 +69,7 @@
 	<span>{formattedDate}</span>
 {/if}
 
-<div class="mt-9">
+<div class="mt-9 post-body">
 	{@html body}
 </div>
 
