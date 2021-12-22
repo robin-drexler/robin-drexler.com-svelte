@@ -22,8 +22,7 @@ The fantastic [Gerta Xhepi](https://twitter.com/GXhepi) drew a sketch of this ta
 <img
   height="1200"
   width="923"
-  src="/img/hops-sketch.jpg">
-</img>
+  src="/img/hops-sketch.jpg" />
 
 ## preconnect, prefetch, preload, pre-what? - An introduction to Resource Hints (November 2017)
 
@@ -50,8 +49,7 @@ The folks at [neuland](https://twitter.com/neuland/status/987689237926633472) we
 <img
   height="2048"
   width="1344"
-  src="/img/preload-sketch.jpg">
-</img>
+  src="/img/preload-sketch.jpg" />
 
 ## 7+ web technologies you might not know yet (March 2017)
 

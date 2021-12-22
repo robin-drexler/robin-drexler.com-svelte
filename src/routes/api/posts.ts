@@ -4,6 +4,7 @@ import { basename } from 'path';
 
 export const get: RequestHandler = async () => {
 	const posts = await getPosts();
+	console.log(posts);
 	return { body: { posts } };
 };
 
@@ -22,6 +23,13 @@ async function getPosts() {
 			filePath: slug
 		});
 	}
+
+	posts.sort((a, b) => {
+		const aDate = new Date(a.attributes.date);
+		const bDate = new Date(b.attributes.date);
+
+		return bDate.getTime() - aDate.getTime();
+	});
 
 	return posts;
 }

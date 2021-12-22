@@ -27,7 +27,7 @@
 				formatted = prism.highlight(code, prism.languages[lang], lang);
 			}
 
-			return `<div class="mt-6 bg-gray-50 shadow-md p-3 rounded">${formatted}</div>`;
+			return `<div class="mt-6 bg-gray-50 shadow-md p-3 rounded overflow-x-scroll">${formatted}</div>`;
 		}
 	});
 
