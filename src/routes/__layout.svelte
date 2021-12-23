@@ -7,7 +7,7 @@
 	/**
 	 * remove old service workers that may still be lingering
 	 */
-	if ('serviceWorker' in navigator) {
+	if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator) {
 		navigator.serviceWorker.getRegistrations().then(function (registrations) {
 			if (!registrations.length) {
 				return;
