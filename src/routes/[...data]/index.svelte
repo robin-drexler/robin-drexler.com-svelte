@@ -1,9 +1,11 @@
 <script context="module" type="ts">
 	import type { Load } from '@sveltejs/kit';
 
+	export const prerender = true;
 	export const hydrate = false;
 
 	export const load: Load = async ({ page, fetch }) => {
+		console.log(fetch);
 		const res = await (await fetch(`/api/page?path=${page.path}`)).json();
 
 		if (!res.page) {

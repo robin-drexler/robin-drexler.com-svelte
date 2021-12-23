@@ -2,6 +2,7 @@ import type { RequestHandler } from '@sveltejs/kit';
 import frontMatter from 'front-matter';
 import { basename } from 'path';
 
+export const prerender = false;
 export const get: RequestHandler = async ({ query }) => {
 	const matchingFile = await findFileForPath(
 		decodeURIComponent(query.get('path')),

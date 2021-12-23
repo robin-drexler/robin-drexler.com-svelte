@@ -1,6 +1,6 @@
 // import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,6 +9,9 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
+		prerender: {
+			crawl: true,
+		},
 		vite: {
 			plugins: [mdPlugin()],
 		},
@@ -16,7 +19,7 @@ const config = {
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		router: false,
+		router: true,
 	},
 };
 
