@@ -15,11 +15,13 @@ async function getPosts() {
 	for (const slug of slugs) {
 		const fileContent = (await import(`../../_posts/${slug}.md`)).default;
 
-		const result = frontMatter(fileContent) as { attributes: { permalink?: string } };
+		const result = frontMatter(fileContent) as {
+			attributes: { permalink?: string };
+		};
 
 		posts.push({
 			attributes: result.attributes,
-			filePath: slug
+			filePath: slug,
 		});
 	}
 

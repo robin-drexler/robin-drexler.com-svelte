@@ -28,7 +28,7 @@
 			}
 
 			return `<div class="mt-6 bg-gray-50 shadow-md p-3 rounded overflow-x-scroll">${formatted}</div>`;
-		}
+		},
 	});
 
 	type Post = {
@@ -51,7 +51,7 @@
 		? new Date(post.attributes.date).toLocaleDateString('en-US', {
 				month: 'long',
 				day: 'numeric',
-				year: 'numeric'
+				year: 'numeric',
 		  })
 		: null;
 </script>

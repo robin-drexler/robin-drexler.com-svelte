@@ -3,10 +3,10 @@ module.exports = {
 	content: ['./src/**/*.html', './src/**/*.svelte'],
 	darkMode: 'media',
 	theme: {
-		extend: {}
+		extend: {},
 	},
 	variants: {
-		extend: {}
+		extend: {},
 	},
-	plugins: []
+	plugins: [],
 };

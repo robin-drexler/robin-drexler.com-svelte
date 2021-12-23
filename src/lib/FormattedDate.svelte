@@ -6,7 +6,7 @@
 	$: formatteDate = new Date(dateString).toLocaleDateString('en-US', {
 		month: 'long',
 		day: 'numeric',
-		year: 'numeric'
+		year: 'numeric',
 	});
 </script>
 

@@ -10,14 +10,14 @@ const config = {
 
 	kit: {
 		vite: {
-			plugins: [mdPlugin()]
+			plugins: [mdPlugin()],
 		},
 		adapter: adapter(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		router: false
-	}
+		router: false,
+	},
 };
 
 /** @return {import('vite').Plugin} */
@@ -28,10 +28,10 @@ function mdPlugin() {
 			if (id.endsWith('.md')) {
 				return {
 					code: `export default ${JSON.stringify(code)};`,
-					map: null
+					map: null,
 				};
 			}
-		}
+		},
 	};
 }
 

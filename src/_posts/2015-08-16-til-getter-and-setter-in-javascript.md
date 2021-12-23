@@ -25,7 +25,7 @@ var dog = {
 	set age(age) {
 		console.log('set age');
 		this._age = age;
-	}
+	},
 };
 
 dog.age = 8;

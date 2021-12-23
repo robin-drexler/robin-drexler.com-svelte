@@ -3,7 +3,9 @@ import frontMatter from 'front-matter';
 import { basename } from 'path';
 
 export const get: RequestHandler = async ({ query }) => {
-	const matchingFile = await findFileForPath(decodeURIComponent(query.get('path')));
+	const matchingFile = await findFileForPath(
+		decodeURIComponent(query.get('path')),
+	);
 
 	return { body: { page: matchingFile ?? null } };
 };
@@ -21,14 +23,16 @@ async function findFileForPath(path) {
 			fileContent = (await import(`../../_pages/${slug}.md`)).default;
 		}
 
-		const result = frontMatter(fileContent) as { attributes: { permalink?: string } };
+		const result = frontMatter(fileContent) as {
+			attributes: { permalink?: string };
+		};
 
 		const pathToCheck = result.attributes.permalink.replace(/\/$/, '');
 
 		if (pathToCheck === path) {
 			return {
 				...result,
-				filePath: slug
+				filePath: slug,
 			};
 		}
 	}
