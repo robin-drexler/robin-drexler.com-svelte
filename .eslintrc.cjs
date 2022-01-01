@@ -6,6 +6,9 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended',
 		'prettier',
 	],
+	rules: {
+		'@typescript-eslint/explicit-module-boundary-types': 'off',
+	},
 	plugins: ['svelte3', '@typescript-eslint'],
 	ignorePatterns: ['*.cjs'],
 	overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],

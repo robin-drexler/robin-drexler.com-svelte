@@ -15,6 +15,8 @@
 </script>
 
 <script type="ts">
+	import type { Post } from '$lib/types';
+
 	import { marked } from 'marked';
 	import prism from 'prismjs';
 
@@ -31,15 +33,6 @@
 		},
 	});
 
-	type Post = {
-		attributes: {
-			title?: string;
-			permalink?: string;
-			date?: string;
-			categories?: string;
-		};
-		body: string;
-	};
 	export let post: Post;
 
 	let body = '';
@@ -65,6 +58,18 @@
 </svelte:head>
 
 <h1>{post.attributes.title}</h1>
+
+{#if post.attributes.categories}
+	<div class="flex my-2.5 gap-2 text-xs">
+		<ul>
+			{#each post.attributes.categories.split(' ') as category}
+				<li class="inline">
+					<a href={`/blog/category/${category}`}>#{category}</a>
+				</li>
+			{/each}
+		</ul>
+	</div>
+{/if}
 
 {#if formattedDate}
 	<span>{formattedDate}</span>

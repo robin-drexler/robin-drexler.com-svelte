@@ -10,6 +10,7 @@
 
 <script type="ts">
 	import FormattedDate from '$lib/FormattedDate.svelte';
+	import PostItem from './_PostItem.svelte';
 
 	type PostData = {
 		attributes: {
@@ -31,14 +32,7 @@
 <div class="mt-9">
 	<ul>
 		{#each posts as post}
-			<li class="mt-8">
-				<div class="text-sm font-thin">
-					<FormattedDate dateString={post.attributes.date} />
-				</div>
-				<a href={post.attributes.permalink} class="text-xl">
-					{post.attributes.title}
-				</a>
-			</li>
+			<PostItem {post} />
 		{/each}
 	</ul>
 </div>
