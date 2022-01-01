@@ -3,7 +3,7 @@ layout: post
 title: '[UX-SNIPPET] Foursquare nearby photos'
 permalink: /2015/03/02/ux-snippet-foursquare-nearby-photos/
 date: 2015-03-02 00:00:00
-categories: ux ux-snippet article
+categories: [ux, ux-snippet, article]
 ---
 
 When writing a tip on Foursquare, it shows the photos you've taken nearby the venue, so you can easily attach them.

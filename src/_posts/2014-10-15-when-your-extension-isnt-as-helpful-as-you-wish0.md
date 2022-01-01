@@ -3,7 +3,7 @@ layout: post
 title: "When your extension isn't as helpful as you wish"
 permalink: /2014/10/15/when-your-extension-isn-t-as-helpful-as-you-think/
 date: 2014-10-15 00:00:00
-categories: ux chrome-extensions article
+categories: [ux, chrome-extensions, article]
 ---
 
 <img

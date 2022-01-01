@@ -11,11 +11,11 @@ export const get: RequestHandler = async ({ query }) => {
 		posts = posts.filter((post) => {
 			const categories = post?.attributes?.categories;
 
-			if (!categories) {
+			if (!categories || !Array.isArray(categories)) {
 				return false;
 			}
 
-			return categories.split(' ').includes(category);
+			return categories.includes(category);
 		});
 	}
 

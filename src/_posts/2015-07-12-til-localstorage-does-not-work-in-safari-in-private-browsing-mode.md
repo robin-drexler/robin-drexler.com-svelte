@@ -3,7 +3,7 @@ layout: post
 title: '[TIL] localStorage does not work in Safari in Private Browsing mode'
 permalink: /2015/07/12/til-localstorage-does-not-work-in-safari-in-private-browsing-mode/
 date: 2015-07-12 00:00:00
-categories: til article
+categories: [til, article]
 ---
 
 Deviating from other major browsers, Safari does not allow accessing [localStorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage 'https://developer.mozilla.org/en/docs/Web/API/Window/localStorage') or [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage 'https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage') when in Private Browsing mode.

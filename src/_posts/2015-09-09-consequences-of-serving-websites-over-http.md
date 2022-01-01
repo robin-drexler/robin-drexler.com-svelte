@@ -3,7 +3,7 @@ layout: post
 title: 'Consequences of serving websites over http'
 permalink: /2015/09/09/consequences-of-serving-websites-over-http/
 date: 2015-09-09 00:00:00
-categories: article
+categories: [article]
 ---
 
 This blog post briefly outlines the risks of continuing to deliver websites over http instead of https in the next years. Obvious security benefits are put aside for now. Everything discussed in this post is probably 1-3 years away, so there is no need to panic. Still it's good to know the direction we're heading.

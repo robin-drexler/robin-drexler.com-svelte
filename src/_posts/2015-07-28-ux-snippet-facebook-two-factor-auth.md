@@ -3,7 +3,7 @@ layout: post
 title: '[UX-SNIPPET] Facebook two-factor auth'
 permalink: /2015/07/28/ux-snippet-facebook-two-factor-auth/
 date: 2015-07-28 00:00:00
-categories: ux article
+categories: [ux, article]
 ---
 
 While [two-factor authentication](https://en.wikipedia.org/wiki/Two-factor_authentication 'https://en.wikipedia.org/wiki/Two-factor_authentication') is a great addition to account security, it provides a pretty poor user experience. 

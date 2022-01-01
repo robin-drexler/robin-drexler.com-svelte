@@ -3,7 +3,7 @@ layout: post
 title: "[UX-SNIPPET] Google Drive's search also includes items in trash"
 permalink: /2014/10/23/ux-snippet-google-drive-s-search-also-includes-items-in-trash/
 date: 2014-10-23 00:00:00
-categories: ux ux-snippet article
+categories: [ux, ux-snippet, article]
 ---
 
 <img

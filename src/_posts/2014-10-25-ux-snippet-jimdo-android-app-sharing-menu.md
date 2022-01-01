@@ -3,7 +3,7 @@ layout: post
 title: '[UX-SNIPPET] Jimdo Android app sharing menu'
 permalink: /2014/10/25/ux-snippet-jimdo-android-app-sharing-menu/
 date: 2014-10-25 00:00:00
-categories: ux ux-snippet article
+categories: [ux, ux-snippet, article]
 ---
 
 <img

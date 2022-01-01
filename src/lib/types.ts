@@ -3,7 +3,7 @@ export type Post = {
 		title?: string;
 		permalink?: string;
 		date?: string;
-		categories?: string;
+		categories?: string[];
 	};
 	body: string;
 };

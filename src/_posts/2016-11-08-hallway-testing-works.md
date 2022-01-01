@@ -3,7 +3,7 @@ layout: post
 title: 'Hallway testing works'
 permalink: /2016/11/08/hallway-testing-works/
 date: 2016-11-08 00:00:00
-categories: ux article web
+categories: [ux, article, web]
 ---
 
 During this year's Firebase Dev Summit in Berlin, [Tobias](https://twitter.com/tobiasbales 'https://twitter.com/tobiasbales') and I built a little web app, called [webperfchallenge](https://webperfchallenge.com/ 'https://webperfchallenge.com/'), which allows to compare your website's mobile performance with the top 50 most popular websites in the world.

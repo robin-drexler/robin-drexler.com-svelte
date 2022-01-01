@@ -3,7 +3,7 @@ layout: post
 title: 'Improving "/search" UX with a small change'
 permalink: /2015/09/07/improving-search-ux-with-a-small-change/
 date: 2015-09-07 00:00:00
-categories: ux chrome-extensions article
+categories: [ux, chrome-extensions, article]
 ---
 
 A while ago, I created  a Chrome extension called [/search](/projects/chrome-extensions/#search '/search').

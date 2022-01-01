@@ -62,7 +62,7 @@
 {#if post.attributes.categories}
 	<div class="flex my-2.5 gap-2 text-xs">
 		<ul>
-			{#each post.attributes.categories.split(' ') as category}
+			{#each post.attributes.categories as category}
 				<li class="inline">
 					<a href={`/blog/category/${category}`}>#{category}</a>
 				</li>

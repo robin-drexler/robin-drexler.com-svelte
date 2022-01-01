@@ -3,7 +3,7 @@ layout: post
 title: '[UX-SNIPPET] Chrome warn before quitting'
 permalink: /2015/08/06/ux-snippet-chrome-warn-before-quitting/
 date: 2015-08-06 00:00:00
-categories: ux ux-snippet article
+categories: [ux, ux-snippet, article]
 ---
 
 I'm a heavy user of keyboard shortcuts, especially while browsing the web. The shortcut to close an open tab in Chrome  is **CMD + W**. That's fine until you think about the fact that there's a global shortcut in OSX to closes any focused app: **CMD+Q**. Unfortunately the W key and the Q key happen to be pretty close to one another, which sometimes results in an accidental browser quit.
