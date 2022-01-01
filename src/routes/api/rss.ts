@@ -5,7 +5,7 @@ import { marked } from 'marked';
 
 export const get: RequestHandler = async () => {
 	const posts = (await getPosts()).slice(0, 20);
-
+	//dd
 	console.log(posts[0]);
 
 	const rssString = `<?xml version="1.0" encoding="UTF-8"?>
