@@ -9,7 +9,6 @@
 </script>
 
 <script type="ts">
-	import FormattedDate from '$lib/FormattedDate.svelte';
 	import PostItem from './_PostItem.svelte';
 
 	type PostData = {

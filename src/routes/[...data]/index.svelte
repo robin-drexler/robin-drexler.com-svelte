@@ -15,6 +15,7 @@
 </script>
 
 <script type="ts">
+	import FormattedDate from '$lib/FormattedDate.svelte';
 	import type { Post } from '$lib/types';
 
 	import { marked } from 'marked';
@@ -71,8 +72,8 @@
 	</div>
 {/if}
 
-{#if formattedDate}
-	<span>{formattedDate}</span>
+{#if post.attributes.date}
+	<FormattedDate dateString={post.attributes.date} />
 {/if}
 
 <div class="mt-9 post-body">
