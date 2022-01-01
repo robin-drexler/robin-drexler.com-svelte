@@ -10,12 +10,12 @@ export const get: RequestHandler = async ({ query }) => {
 	return { body: { page: matchingFile ?? null } };
 };
 
-async function findFileForPath(path) {
+async function findFileForPath(path: string) {
 	const entries = Object.keys(import.meta.glob('../../{_posts,_pages}/*.md'));
 	const slugs = entries.map((postPath) => basename(postPath, '.md'));
 
 	for (const slug of slugs) {
-		let fileContent;
+		let fileContent = '';
 
 		try {
 			fileContent = (await import(`../../_posts/${slug}.md`)).default;

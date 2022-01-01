@@ -2,24 +2,17 @@
 	import type { Load } from '@sveltejs/kit';
 	export const prerender = true;
 
-	export const load: Load = async ({ page, fetch }) => {
+	export const load: Load = async ({ fetch }) => {
 		const res = await (await fetch(`/api/posts`)).json();
 		return { props: { posts: res.posts } };
 	};
 </script>
 
 <script type="ts">
-	import PostItem from './_PostItem.svelte';
+	import type { Post } from '$lib/types';
 
-	type PostData = {
-		attributes: {
-			title?: string;
-			permalink?: string;
-			date?: string;
-			categories?: string;
-		};
-	};
-	export let posts: PostData[] = [];
+	import PostItem from './_PostItem.svelte';
+	export let posts: Post[] = [];
 </script>
 
 <svelte:head>

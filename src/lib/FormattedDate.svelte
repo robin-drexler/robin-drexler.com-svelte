@@ -1,7 +1,5 @@
 <script type="ts">
-	export let dateString;
-
-	let formattedDate;
+	export let dateString: string;
 
 	$: formatteDate = new Date(dateString).toLocaleDateString('en-US', {
 		month: 'long',

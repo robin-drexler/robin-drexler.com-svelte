@@ -36,18 +36,7 @@
 
 	export let post: Post;
 
-	let body = '';
-	let formattedDate = null;
-
 	$: body = marked(post.body);
-
-	$: formattedDate = post.attributes.date
-		? new Date(post.attributes.date).toLocaleDateString('en-US', {
-				month: 'long',
-				day: 'numeric',
-				year: 'numeric',
-		  })
-		: null;
 </script>
 
 <svelte:head>
