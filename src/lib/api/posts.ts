@@ -1,7 +1,8 @@
+import type { RawPost } from '$lib/types';
 import frontMatter from 'front-matter';
 import { basename } from 'path';
 
-export async function getPosts() {
+export async function getPosts(): Promise<RawPost[]> {
 	const entries = Object.keys(import.meta.glob('../../_posts/*.md'));
 	const slugs = entries.map((postPath) => basename(postPath, '.md'));
 	const posts = [];
@@ -11,11 +12,13 @@ export async function getPosts() {
 
 		const result = frontMatter(fileContent) as {
 			attributes: { permalink?: string };
+			body: string;
 		};
 
 		posts.push({
 			attributes: result.attributes,
 			filePath: slug,
+			rawBody: result.body,
 		});
 	}
 

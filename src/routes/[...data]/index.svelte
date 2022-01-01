@@ -21,7 +21,9 @@
 	import { marked } from 'marked';
 	import prism from 'prismjs';
 
-	marked.setOptions({
+	export let post: Post;
+
+	$: body = marked.parse(post.body, {
 		gfm: true,
 		breaks: true,
 		highlight: function (code, lang) {
@@ -33,10 +35,6 @@
 			return `<div class="mt-6 bg-gray-50 shadow-md p-3 rounded overflow-x-scroll">${formatted}</div>`;
 		},
 	});
-
-	export let post: Post;
-
-	$: body = marked(post.body);
 </script>
 
 <svelte:head>
