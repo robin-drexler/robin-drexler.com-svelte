@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[TIL] getter and setter in JavaScript'
+title: 'getter and setter in JavaScript'
 permalink: /2015/08/16/til-getter-and-setter-in-javascript/
 date: 2015-08-16 00:00:00
 categories: [til, article]

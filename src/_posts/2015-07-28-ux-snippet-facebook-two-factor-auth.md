@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[UX-SNIPPET] Facebook two-factor auth'
+title: 'Facebook two-factor auth'
 permalink: /2015/07/28/ux-snippet-facebook-two-factor-auth/
 date: 2015-07-28 00:00:00
 categories: [ux, article]

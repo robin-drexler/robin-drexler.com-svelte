@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[UX-SNIPPET] Netflix account setup on FireTV'
+title: 'Netflix account setup on FireTV'
 permalink: /2015/06/28/ux-snippet-netflix-account-setup-on-firetv/
 date: 2015-06-28 00:00:00
 categories: [ux, ux-snippet, article]

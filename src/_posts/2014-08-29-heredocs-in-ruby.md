@@ -1,8 +1,9 @@
 ---
 layout: post
-title: '[TIL] Here docs (in Ruby)'
+title: 'Here docs (in Ruby)'
 date: 2014-08-29 14:00:00
 permalink: /2014/08/29/heredocs-in-ruby.html
+categories: [til]
 ---
 
 ## Intro

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[UX-SNIPPET] 1Password Purchase'
+title: '1Password Purchase'
 permalink: /2015/07/06/ux-snippet-1password-purchase/
 date: 2015-07-06 00:00:00
 categories: [ux, ux-snippet, article]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[TIL] The DOM event dispatch phases'
+title: 'The DOM event dispatch phases'
 permalink: /2015/07/11/the-dom-event-dispatch-phases/
 date: 2015-07-11 00:00:00
 categories: [til, article, web]

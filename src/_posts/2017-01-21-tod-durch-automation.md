@@ -3,6 +3,7 @@ layout: post
 title: '[GERMAN] Tod durch Automation'
 date: 2017-01-21 00:00:00
 permalink: /2017/01/21/tod-durch-automation.html
+categories: [german, article]
 ---
 
 Maschinen nehmen uns die Arbeitsplätze weg. Das ist schon seit Jahrzehnten der Fall und diese Entwicklung wird unaufhaltsam und immer rasanter vorangehen. Es gibt Schätzungen, nach denen in weniger als zehn Jahren ein drittel aller zur Zeit von Menschen erledigten Jobs von Maschinen übernommen sein wird.[1]

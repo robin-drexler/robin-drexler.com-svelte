@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[TIL] Overriding default browser shortcuts with JavaScript'
+title: 'Overriding default browser shortcuts with JavaScript'
 permalink: /2015/07/07/overriding-default-browser-shortcuts/
 date: 2015-07-07 00:00:00
 categories: [til, article, web]

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: '[TIL] Spaceship operator'
+title: 'Spaceship operator'
 date: 2014-09-04 22:00:00
 permalink: /2014/09/04/spaceship-operator.html
+categories: [til]
 ---
 
 ## Intro

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[UX-SNIPPET] Foursquare nearby photos'
+title: 'Foursquare nearby photos'
 permalink: /2015/03/02/ux-snippet-foursquare-nearby-photos/
 date: 2015-03-02 00:00:00
 categories: [ux, ux-snippet, article]

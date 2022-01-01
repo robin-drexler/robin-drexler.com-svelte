@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[UX-SNIPPET] Chrome warn before quitting'
+title: 'Chrome warn before quitting'
 permalink: /2015/08/06/ux-snippet-chrome-warn-before-quitting/
 date: 2015-08-06 00:00:00
 categories: [ux, ux-snippet, article]
