@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'JavaScript destructure directly into return statement'
-date: 2020-08-06 00:00:00
-permalink: 2019/07/09-destructure-return
+date: 2019-07-09 00:00:00
+permalink: /2019/07/09-destructure-return
 categories: [til, javascript]
 ---
 
