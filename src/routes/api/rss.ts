@@ -27,6 +27,7 @@ export const get: RequestHandler = async () => {
 					breaks: true,
 					baseUrl: 'https://www.robin-drexler.com',
 				})}]]>
+        <guid>https://www.robin-drexler.com${post.attributes.permalink}</guid>
         <pubDate>${new Date(post.attributes.date).toUTCString()}</pubDate>
         </description>
       </item> 

@@ -27,6 +27,10 @@ a {
 	@apply list-disc list-outside mx-10;
 }
 
+.post-body > blockquote {
+	@apply border-l-2 px-3;
+}
+
 .youtube-wrapper {
 	@apply flex justify-center mt-6 mb-6;
 }
