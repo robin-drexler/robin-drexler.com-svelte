@@ -10,6 +10,6 @@ The Chrome developer tools ship with an [interface to run commands](https://deve
 
 That's useful to do common tasks like disabling or enabling JavaScript. Which otherwise needs to be done by going through the DevTools settings.
 
-The command interface can be opened with `Command+Shift+P` (or Ctrl on Windows or Linux).
+The command interface can be opened with <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>P</kbd> (or Ctrl on Windows or Linux).
 
 ![screenshot chrome command menu](/img/posts/chrome-devtools-action.png)

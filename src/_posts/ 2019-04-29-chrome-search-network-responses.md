@@ -7,7 +7,7 @@ categories: [til]
 ---
 
 You can search the content of **all** network requests in the Chrome devtools.
-Go to the Network panel and hit ⌘+F (or ctrl+f) if you're on windows or linux) and search for what you're looking for.
+Go to the Network panel and hit <kbd>command</kbd> + <kbd>F</kbd> (or ctrl+F) if you're on windows or linux) and search for what you're looking for.
 
 It's brilliant.
 
