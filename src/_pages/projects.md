@@ -9,6 +9,25 @@ Additionally, there's an [extra page with some of my Chrome extensions](/proj
 
 <div class="spacing"><span></span></div>
 
+## Wordle Buddy
+
+A bot that automatically solves the daily wordle puzzle in a chrome browser.
+
+```shell
+START_WORD=house npx wordle-buddy
+```
+
+<video controls >
+  <source src="https://user-images.githubusercontent.com/474248/149675322-3df54e90-b838-4a3b-bb35-56dee114db4e.mp4#t=1" type="video/mp4">
+</video>
+
+**Technologies used**
+
+- [Playwright](https://playwright.dev)
+- [nodejs](https://nodejs.org/en/)
+
+You can find the source code on [robin-drexler/wordle-buddy](https://github.com/robin-drexler/wordle-buddy)
+
 ## exec-ts
 
 Allows to write your scripts in TypeScript and execute them in node.
