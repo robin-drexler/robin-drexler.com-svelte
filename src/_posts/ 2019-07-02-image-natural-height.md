@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Get the natural height of an image'
+title: 'Access the natural height of an image'
 date: 2019-07-02 01:00:00
 permalink: /2019/07/02-image-natural-height
 categories: [til, javascript]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Get canonical URL on GitHub'
+title: 'Retrive canonical URL on GitHub'
 date: 2020-09-21 00:00:00
 permalink: /2020/09/21/github-expand-urls
 categories: [til]
