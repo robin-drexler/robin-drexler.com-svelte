@@ -38,7 +38,7 @@
 	/>
 </svelte:head>
 
-<h1>{data.post.attributes.title}</h1>
+<h1 style:view-transition-name="link-title">{data.post.attributes.title}</h1>
 
 {#if data.post.attributes.categories}
 	<div class="flex my-2.5 gap-2 text-xs">

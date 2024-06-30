@@ -1,8 +1,13 @@
 <script lang="ts">
 	import type { Post } from '$lib/types';
+	import { getContext } from 'svelte';
 	import PostItem from '../../_PostItem.svelte';
 
 	export let data: { posts: Post[]; category: string };
+
+	const lastNav = getContext('lastNavigation');
+
+	$: lastBlogPath = $lastNav.from?.url?.pathname;
 </script>
 
 <svelte:head>
@@ -14,7 +19,7 @@
 <div class="mt-9">
 	<ul>
 		{#each data.posts as post}
-			<PostItem {post} />
+			<PostItem {post} isPreviousTarget={post.attributes.permalink === lastBlogPath} />
 		{/each}
 	</ul>
 </div>

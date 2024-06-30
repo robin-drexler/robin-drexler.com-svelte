@@ -1,15 +1,26 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { getContext } from 'svelte';
 
 	import ContentWrapper from './layout/ContentWrapper.svelte';
+
+	const lastNav = getContext('lastNavigation');
+
+	$: lastFrom = $lastNav.from?.url?.pathname;
+	$: lastTo = $lastNav.to?.url?.pathname;
+	$: console.log({ lastFrom, lastTo });
 </script>
 
 <ContentWrapper className="flex justify-between items-center my-4" tag="nav">
-	<a
-		class="text-2xl font-thin inline-block nav-main-link"
-		style:--nav-view-transition-name={$page.url.pathname === '/' ? undefined : 'photo-me'}
-		href="/">Robin Drexler</a
-	>
+	<a class="text-2xl font-thin inline-block nav-main-link" href="/"
+		>Robin Drexler
+
+		{#if $page.url.pathname !== '/'}
+			<span style:view-transition-name={lastFrom === '/' || lastTo === '/' ? 'wave' : undefined}
+				>👋</span
+			>
+		{/if}
+	</a>
 
 	<div class="flex space-x-6">
 		<a href="/talks">Talks</a>
