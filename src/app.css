@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-3xl;
+	}
+
+	h2 {
+		@apply text-2xl mb-4 font-semibold;
+	}
+	h2:not(:first-child) {
+		@apply mt-9;
+	}
+}
+
+a {
+	@apply text-yellow-200 hover:text-yellow-500 visited:text-yellow-500;
+}
+
+.post-body > p {
+	@apply mt-5 mb-5;
+}
+
+.post-body > ul {
+	@apply list-disc list-outside mx-10;
+}
+
+.post-body > blockquote {
+	@apply border-l-2 px-3;
+}
+
+.post-body > pre {
+	max-width: 100vw;
+}
+
+.post-body kbd {
+	@apply border rounded-md py-1 px-2 inline-block;
+}
+
+.youtube-wrapper {
+	@apply flex justify-center mt-6 mb-6;
+}
+
+body,
+html,
+#svelte {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: underline;
+}
