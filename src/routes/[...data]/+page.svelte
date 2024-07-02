@@ -7,6 +7,7 @@
 
 	import { Marked } from 'marked';
 	import prism from 'prismjs';
+	import { sanitizeId } from '$lib/utils/sanitize-ids';
 
 	export let data: { post: Post };
 
@@ -38,7 +39,9 @@
 	/>
 </svelte:head>
 
-<h1 style:view-transition-name="link-title">{data.post.attributes.title}</h1>
+<h1 style:view-transition-name={`link-title-${sanitizeId(data.post.attributes.permalink || '')}`}>
+	{data.post.attributes.title}
+</h1>
 
 {#if data.post.attributes.categories}
 	<div class="flex my-2.5 gap-2 text-xs">

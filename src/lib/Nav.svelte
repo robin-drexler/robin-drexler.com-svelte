@@ -8,7 +8,6 @@
 
 	$: lastFrom = $lastNav.from?.url?.pathname;
 	$: lastTo = $lastNav.to?.url?.pathname;
-	$: console.log({ lastFrom, lastTo });
 </script>
 
 <ContentWrapper className="flex justify-between items-center my-4" tag="nav">

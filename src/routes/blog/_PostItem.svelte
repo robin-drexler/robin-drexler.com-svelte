@@ -2,9 +2,9 @@
 	import FormattedDate from '$lib/FormattedDate.svelte';
 
 	import type { Post } from '$lib/types';
+	import { sanitizeId } from '$lib/utils/sanitize-ids';
 
 	export let post: Post;
-	export let isPreviousTarget: boolean = false;
 </script>
 
 <li class="mt-8">
@@ -12,12 +12,9 @@
 		<FormattedDate dateString={post.attributes.date} />
 	</div>
 	<a
-		style:view-transition-name={isPreviousTarget ? 'link-title' : undefined}
+		style:view-transition-name={`link-title-${sanitizeId(post.attributes.permalink || '')}`}
 		href={post.attributes.permalink}
 		class="text-xl"
-		on:click={(event) => {
-			event.currentTarget.style.viewTransitionName = 'link-title';
-		}}
 	>
 		{post.attributes.title}
 	</a>
