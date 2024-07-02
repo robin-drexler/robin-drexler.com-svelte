@@ -28,7 +28,7 @@
 
 <article class="grid grid-rows-[auto_1fr_auto] h-full gap-9">
 	<Nav />
-	<div style:view-transition-name="main">
+	<div>
 		<ContentWrapper tag="main">
 			<slot />
 		</ContentWrapper>

@@ -13,6 +13,7 @@
 	</div>
 	<a
 		style:view-transition-name={`link-title-${sanitizeId(post.attributes.permalink || '')}`}
+		style:view-transition-class="link-title"
 		href={post.attributes.permalink}
 		class="text-xl"
 	>

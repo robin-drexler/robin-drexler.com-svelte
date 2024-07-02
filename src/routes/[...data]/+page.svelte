@@ -39,7 +39,10 @@
 	/>
 </svelte:head>
 
-<h1 style:view-transition-name={`link-title-${sanitizeId(data.post.attributes.permalink || '')}`}>
+<h1
+	style:view-transition-name={`link-title-${sanitizeId(data.post.attributes.permalink || '')}`}
+	style:view-transition-class="link-title"
+>
 	{data.post.attributes.title}
 </h1>
 

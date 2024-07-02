@@ -52,3 +52,15 @@ html,
 a:hover {
 	text-decoration: underline;
 }
+
+:root {
+	view-transition-name: none;
+}
+
+::view-transition-old(.link-title) {
+	display: none;
+}
+
+::view-transition-new(.link-title) {
+	animation: none;
+}
