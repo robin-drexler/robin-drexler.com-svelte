@@ -2,7 +2,7 @@
 layout: post
 title: 'Spaceship operator'
 date: 2014-09-04 22:00:00
-permalink: /2014/09/04/spaceship-operator.html
+permalink: /2014/09/04/spaceship-operator
 categories: [til]
 ---
 

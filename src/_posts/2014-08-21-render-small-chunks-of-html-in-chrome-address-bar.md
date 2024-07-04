@@ -2,7 +2,7 @@
 layout: post
 title: 'Render small chunks of HTML directly in Chrome address bar'
 date: 2014-08-21 09:00:00
-permalink: /2014/08/21/render-small-chunks-of-html-in-chrome-address-bar.html
+permalink: /2014/08/21/render-small-chunks-of-html-in-chrome-address-bar
 categories: [til]
 ---
 

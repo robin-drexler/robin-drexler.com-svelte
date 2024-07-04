@@ -2,7 +2,7 @@
 layout: post
 title: 'Making Google PageSpeed comparable'
 date: 2017-01-31 00:00:00
-permalink: /2017/01/31/making-google-pagespeed-comparable.html
+permalink: /2017/01/31/making-google-pagespeed-comparable
 ---
 
 For years now, I've used Google's ["PageSpeed Insights"](https://developers.google.com/speed/pagespeed/insights/) service to measure the performance of websites.

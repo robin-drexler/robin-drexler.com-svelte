@@ -2,7 +2,7 @@
 layout: post
 title: 'Edit current command in $EDITOR'
 date: 2015-02-28 19:00:53
-permalink: /2015/02/28/edit-command-in-vim.html
+permalink: /2015/02/28/edit-command-in-vim
 categories: [til]
 ---
 

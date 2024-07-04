@@ -2,7 +2,7 @@
 layout: post
 title: 'How labeled statements make arrow functions a bit harder'
 date: 2017-05-23 00:00:00
-permalink: /2017/05/23/How-labeled-statements-make-arrow-functions-a-bit-harder.html
+permalink: /2017/05/23/How-labeled-statements-make-arrow-functions-a-bit-harder
 ---
 
 [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) are awesome. They bind `this` lexically, and even allow implied `return` when they only contain one expression.

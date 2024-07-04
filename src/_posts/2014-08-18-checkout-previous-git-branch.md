@@ -2,7 +2,7 @@
 layout: post
 title: 'Checkout previous git branch'
 date: 2014-08-18 19:00:53
-permalink: /2014/08/18/checkout-previous-git-branch.html
+permalink: /2014/08/18/checkout-previous-git-branch
 categories: [til, git]
 ---
 
