@@ -26,6 +26,10 @@
 	});
 </script>
 
+<svelte:head>
+	<meta property="og:image" content="/img/me_2019.jpg" />
+</svelte:head>
+
 <article class="grid grid-rows-[auto_1fr_auto] h-full gap-9">
 	<Nav />
 	<div>
