@@ -9,6 +9,31 @@ Additionally, there's an [extra page with some of my Chrome extensions](/proj
 
 <div class="spacing"><span></span></div>
 
+## httpsleep
+
+[https://httsleep.r10r.dev](https://httsleep.r10r.dev): Test how your application handles slow network requests, timeouts, and loading states.
+
+You can find the source code on [robin-drexler/httsleep](https://github.com/robin-drexler/httsleep) and see it in action on [this very page](https://httsleep.herokuapp.com/3?redirectUrl=https://www.robin-drexler.com/projects/)
+
+**Technologies used**
+
+- ~[nodejs](https://nodejs.org/en/)~
+- [bun](https://bun.com)
+- [expressjs](https://expressjs.com/)
+
+## ranmdn
+
+[https://ranmdn.r10r.dev](https://ranmdn.r10r.dev) redirects to a random [Mozilla Developer Network (mdn)](https://developer.mozilla.org/en-US/) article, similar to [Wikipedia's random site feature](https://en.wikipedia.org/wiki/Wikipedia:Random). 
+Great to learn new things about the web.
+
+You can find the source code on [robin-drexler/ranmdn](https://github.com/robin-drexler/ranmdn).
+
+**Technologies used**
+
+- ~[nodejs](https://nodejs.org/en/)~
+- ~[micro](https://github.com/zeit/micro)~
+- [bun](https://bun.com)
+- [expressjs](https://expressjs.com/)
 ## Wordle Buddy
 
 A bot that automatically solves the daily wordle puzzle in a chrome browser.
@@ -78,28 +103,6 @@ You can find the source code on [robin-drexler/babel-plugin-debug-source](https
 
 - [babel](https://babeljs.io/)
 - [AST Explorer](https://astexplorer.net/)
-
-## ranmdn
-
-[https://bit.ly/randommdn](https://bit.ly/randommdn) redirects to a random [Mozilla Developer Network (mdn)](https://developer.mozilla.org/en-US/) article, similar to [Wikipedia's random site feature](https://en.wikipedia.org/wiki/Wikipedia:Random). It works by fetching the page's sitemap.xml and picking a random entry when a request is made.
-
-You can find the source code on [robin-drexler/ranmdn](https://github.com/robin-drexler/ranmdn).
-
-**Technologies used**
-
-- [nodejs](https://nodejs.org/en/)
-- [micro](https://github.com/zeit/micro)
-
-## httpsleep
-
-[https://httsleep.herokuapp.com/](https://httsleep.herokuapp.com/) delays and proxies or redirects requests. Perfect to test how your app behaves when some resources take longer than usual to load.
-
-You can find the source code on [robin-drexler/httsleep](https://github.com/robin-drexler/httsleep) and see it in action on [this very page](https://httsleep.herokuapp.com/3?redirectUrl=https://www.robin-drexler.com/projects/)
-
-**Technologies used**
-
-- [nodejs](https://nodejs.org/en/)
-- [expressjs](https://expressjs.com/)
 
 ## webperfchallenge.com
 
