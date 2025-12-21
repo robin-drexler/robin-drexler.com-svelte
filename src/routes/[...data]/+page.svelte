@@ -39,29 +39,44 @@
 	/>
 </svelte:head>
 
-<h1
-	style:view-transition-name={`link-title-${sanitizeId(data.post.attributes.permalink || '')}`}
-	style:view-transition-class="link-title"
->
-	{data.post.attributes.title}
-</h1>
+{#if data.post.attributes.layout === 'post'}
+	<div class="content-card">
+		<h1
+			style:view-transition-name={`link-title-${sanitizeId(data.post.attributes.permalink || '')}`}
+			style:view-transition-class="link-title"
+		>
+			{data.post.attributes.title}
+		</h1>
 
-{#if data.post.attributes.categories}
-	<div class="flex my-2.5 gap-2 text-xs">
-		<ul>
-			{#each data.post.attributes.categories as category}
-				<li class="inline">
-					<a href={`/blog/category/${category}`}>#{category}</a>
-				</li>
-			{/each}
-		</ul>
+		{#if data.post.attributes.categories}
+			<div class="flex my-2.5 gap-2 text-xs">
+				<ul>
+					{#each data.post.attributes.categories as category}
+						<li class="inline">
+							<a href={`/blog/category/${category}`}>#{category}</a>
+						</li>
+					{/each}
+				</ul>
+			</div>
+		{/if}
+
+		{#if data.post.attributes.date}
+			<FormattedDate dateString={data.post.attributes.date} />
+		{/if}
+
+		<div class="mt-6 post-body">
+			{@html body}
+		</div>
+	</div>
+{:else}
+	<h1
+		style:view-transition-name={`link-title-${sanitizeId(data.post.attributes.permalink || '')}`}
+		style:view-transition-class="link-title"
+	>
+		{data.post.attributes.title}
+	</h1>
+
+	<div class="mt-6 post-body">
+		{@html body}
 	</div>
 {/if}
-
-{#if data.post.attributes.date}
-	<FormattedDate dateString={data.post.attributes.date} />
-{/if}
-
-<div class="mt-9 post-body">
-	{@html body}
-</div>

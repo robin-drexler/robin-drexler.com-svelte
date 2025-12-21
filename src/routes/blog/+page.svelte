@@ -15,7 +15,7 @@
 <h1>Posts</h1>
 
 <div class="mt-9">
-	<ul>
+	<ul class="list-none">
 		{#each data.posts as post}
 			<PostItem {post} />
 		{/each}
