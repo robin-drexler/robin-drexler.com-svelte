@@ -32,7 +32,7 @@
 
 <article class="grid grid-rows-[auto_1fr_auto] h-full gap-9">
 	<Nav />
-	<div>
+	<div class="min-w-0">
 		<ContentWrapper tag="main">
 			<slot />
 		</ContentWrapper>

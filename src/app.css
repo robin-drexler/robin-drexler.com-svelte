@@ -68,7 +68,7 @@ a:hover {
 /* Content card styles for markdown pages (talks, projects) */
 /* These mirror the ContentCard, CardTagline, CardFooter Svelte components */
 .content-card {
-	@apply rounded-2xl p-6 mb-6 border transition-colors;
+	@apply rounded-2xl p-6 mb-6 border transition-colors overflow-x-hidden;
 	background-color: rgba(255, 255, 255, 0.08);
 	border-color: rgba(255, 255, 255, 0.1);
 }
