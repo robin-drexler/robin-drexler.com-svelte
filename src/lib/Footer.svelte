@@ -3,7 +3,14 @@
 </script>
 
 <ContentWrapper tag="footer">
-	<a class="block text-xs" href="https://github.com/robin-drexler">GitHub: @robin-drexler</a>
-	<a class="block text-xs my-1.5" href="https://twitter.com/robindrexler">Twitter: @RobinDrexler</a>
-	<a class="block text-xs my-1.5" href="/about">About and legal stuff</a>
+	<div class="border-t border-white/10 pt-8 pb-4">
+		<div class="flex items-center justify-center text-sm">
+			<a
+				class="flex items-center gap-2 text-gray-400 hover:text-yellow-200 transition-colors"
+				href="/about"
+			>
+				About and legal stuff
+			</a>
+		</div>
+	</div>
 </ContentWrapper>

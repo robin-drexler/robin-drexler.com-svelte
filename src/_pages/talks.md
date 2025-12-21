@@ -7,13 +7,15 @@ has_youtube: true
 
 [Please find the slides of all my talks on slidr.io.](https://slidr.io/robin-drexler/)
 
-## Hops - Universal flexible and extensible React applications
+<div class="content-card">
 
-[Slides on slidr.io](https://slidr.io/robin-drexler/hops-universal-flexible-and-extensible-react-applications#1)
+## 🎯 Hops - Universal flexible and extensible React applications
 
-Hops is a framework that gets you started quickly with your React application, and also allows to customize your application's behavior through various run- and build time hooks without "ejecting" to support more sophisticated use cases.
+<p class="card-tagline">Hops is a framework that gets you started quickly with your React application, and also allows to customize your application's behavior through various run- and build time hooks without "ejecting" to support more sophisticated use cases.</p>
 
 We will also dive into Hops' architecture and discuss its virtues as well as its shortcomings.
+
+[Slides on slidr.io](https://slidr.io/robin-drexler/hops-universal-flexible-and-extensible-react-applications#1)
 
 ### Sketch
 
@@ -24,20 +26,24 @@ The fantastic [Gerta Xhepi](https://twitter.com/GXhepi) drew a sketch of this ta
   width="923"
   src="/img/hops-sketch.jpg" />
 
-## preconnect, prefetch, preload, pre-what? - An introduction to Resource Hints (November 2017)
+</div>
 
-[Slides on slidr.io](https://slidr.io/robin-drexler/preconnect-prefetch-preload-pre-what-an-introduction-to-resource-hints#1)
+<div class="content-card">
 
-Every millisecond counts when loading websites. Unfortunately, networks are slow, and while browsers got better at finding critical resources, they still need our help.
+## ⚡ preconnect, prefetch, preload, pre-what? - An introduction to Resource Hints (November 2017)
 
-In this talk, you will learn about “Resource Hints” and how you can use them to make your website load even faster.
+<p class="card-tagline">Every millisecond counts when loading websites. Unfortunately, networks are slow, and while browsers got better at finding critical resources, they still need our help.</p>
+
+In this talk, you will learn about "Resource Hints" and how you can use them to make your website load even faster.
 
 Topics that are covered:
 
-- How browsers download resources and why bandwidth often isn’t the bottleneck and cause for slow websites.
+- How browsers download resources and why bandwidth often isn't the bottleneck and cause for slow websites.
 - How to speed up page loads by hinting at critical resources that are dynamically loaded, such as web fonts or background images referenced in CSS.
 - How to improve the speed of subsequent request by prefetching resources that are going to be needed later.
 - How to make sure your site still works in a world where prerendering of entire pages is a reality.
+
+[Slides on slidr.io](https://slidr.io/robin-drexler/preconnect-prefetch-preload-pre-what-an-introduction-to-resource-hints#1)
 
 <div class="youtube-wrapper">
   <iframe style="width: 100%; aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/S0LuakIy65Y" title=" preconnect, prefetch, preload, pre-what? - An introduction to Resource Hints (November 2017) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,10 +57,15 @@ The folks at [neuland](https://twitter.com/neuland/status/987689237926633472) we
   width="1344"
   src="/img/preload-sketch.jpg" />
 
-## 7+ web technologies you might not know yet (March 2017)
+</div>
 
-[Slides on slidr.io](https://slidr.io/robin-drexler/7-web-technologies-you-might-not-know-yet#1)
-A brief rundown about potentially lesser known web technologies, including:
+<div class="content-card">
+
+## 🔧 7+ web technologies you might not know yet (March 2017)
+
+<p class="card-tagline">A brief rundown about potentially lesser known web technologies.</p>
+
+Topics covered:
 
 - subresource integrity
 - HTTP status code 103 (Early Hints)
@@ -62,33 +73,56 @@ A brief rundown about potentially lesser known web technologies, including:
 - cache-control: immutable
 - addEventListener's third parameter.
 
+[Slides on slidr.io](https://slidr.io/robin-drexler/7-web-technologies-you-might-not-know-yet#1)
+
 <div class="youtube-wrapper">
   <iframe style="width: 100%; aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/4ev8zWpKhzI" title="7+ web technologies you might not know yet (March 2017) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## bfcache (November 2016, lightning talk)
+</div>
 
-A talk about the lesser known [bfcache](https://developer.mozilla.org/en-US/docs/Archive/Misc_top_level/Working_with_BFCache).
-The talk explains what it is, why it is useful and how to tame it.
+<div class="content-card">
 
-[Slided on slidr.io](https://slidr.io/robin-drexler/bfcache#1)
+## ⏪ bfcache (November 2016, lightning talk)
 
-## Behavior testing at Jimdo (October 2016)
+<p class="card-tagline">A talk about the lesser known <a href="https://developer.mozilla.org/en-US/docs/Archive/Misc_top_level/Working_with_BFCache">bfcache</a>. The talk explains what it is, why it is useful and how to tame it.</p>
 
-[Slides on Google Drive](https://drive.google.com/file/d/0B2qRgsrherfzeGxyTllfRUpGRTg/view?usp=sharing)
+[Slides on slidr.io](https://slidr.io/robin-drexler/bfcache#1)
 
-This talk covers how we behavior-test the Jimdo website builder application.
+</div>
+
+<div class="content-card">
+
+## 🧪 Behavior testing at Jimdo (October 2016)
+
+<p class="card-tagline">This talk covers how we behavior-test the Jimdo website builder application.</p>
 
 We will take a look at gems like cucumber and watir-webdriver and how we use those for testing our UI, also addressing how we try to keep the tests stable and the test execution time at a bearable level.
 
-## Why you should deploy HTTPS. Even if user security is not your top priority (September 2015 / June 2016, lightning talk)
+[Slides on Google Drive](https://drive.google.com/file/d/0B2qRgsrherfzeGxyTllfRUpGRTg/view?usp=sharing)
+
+</div>
+
+<div class="content-card">
+
+## 🔒 Why you should deploy HTTPS (September 2015 / June 2016, lightning talk)
+
+<p class="card-tagline">Even if user security is not your top priority.</p>
 
 [Slides on slidr.io](https://slidr.io/robin-drexler/why-you-should-deploy-https-even-if-user-security-is-not-your-top-priority#1)
 
-## Road to CloudPrint (July 2012, German)
+</div>
+
+<div class="content-card">
+
+## 🖨️ Road to CloudPrint (July 2012, German)
+
+<p class="card-tagline">A journey through Google Cloud Print integration.</p>
 
 [Slides on slidr.io](https://slidr.io/robin-drexler/road-to-google-cloud-print#1)
 
 <div class="youtube-wrapper">
   <iframe style="width: 100%; aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/3CxTKvnqRmY" title="Road to CloudPrint (July 2012, German) youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 </div>

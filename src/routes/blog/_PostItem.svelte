@@ -8,15 +8,15 @@
 </script>
 
 <li class="mt-8">
-	<div class="text-sm font-thin">
-		<FormattedDate dateString={post.attributes.date} />
-	</div>
 	<a
 		style:view-transition-name={`link-title-${sanitizeId(post.attributes.permalink || '')}`}
 		style:view-transition-class="link-title"
 		href={post.attributes.permalink}
-		class="text-xl"
+		class="text-xl font-semibold"
 	>
 		{post.attributes.title}
 	</a>
+	<div class="text-sm text-gray-400 mt-1">
+		<FormattedDate dateString={post.attributes.date} />
+	</div>
 </li>

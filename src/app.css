@@ -64,3 +64,57 @@ a:hover {
 ::view-transition-new(.link-title) {
 	animation: none;
 }
+
+/* Content card styles for markdown pages (talks, projects) */
+/* These mirror the ContentCard, CardTagline, CardFooter Svelte components */
+.content-card {
+	@apply rounded-2xl p-6 mb-6 border transition-colors;
+	background-color: rgba(255, 255, 255, 0.08);
+	border-color: rgba(255, 255, 255, 0.1);
+}
+
+.content-card:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-color: rgba(255, 255, 255, 0.15);
+}
+
+.content-card--highlight {
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 200, 100, 0.1));
+}
+
+.content-card h2 {
+	@apply mt-0 mb-2 text-xl;
+}
+
+.content-card h3 {
+	@apply mt-4 mb-2 text-lg;
+}
+
+.content-card p {
+	@apply my-2;
+}
+
+.content-card ul {
+	@apply list-disc list-inside my-2 text-sm;
+}
+
+.content-card video,
+.content-card img {
+	@apply rounded-lg my-4 max-w-full;
+}
+
+.content-card .youtube-wrapper {
+	@apply mt-4 mb-4 justify-start;
+}
+
+.card-tagline {
+	@apply text-gray-300 mb-4 text-base leading-relaxed;
+}
+
+.card-footer {
+	@apply mt-4 pt-4 border-t border-gray-700/50;
+}
+
+.card-footer p {
+	@apply text-sm text-gray-400 my-0;
+}
