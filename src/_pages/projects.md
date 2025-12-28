@@ -53,6 +53,8 @@ Additionally, there's an [extra page with some of my Chrome extensions](/project
 START_WORD=house npx wordle-buddy
 ```
 
+**Web Version:** [wordle-buddy.r10r.dev](https://wordle-buddy.r10r.dev)
+
 <video controls >
   <source src="https://user-images.githubusercontent.com/474248/149675322-3df54e90-b838-4a3b-bb35-56dee114db4e.mp4#t=1" type="video/mp4">
 </video>
