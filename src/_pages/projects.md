@@ -9,6 +9,17 @@ Additionally, there's an [extra page with some of my Chrome extensions](/project
 
 <div class="content-card">
 
+## 🍁 IRCC ETA
+
+<p class="card-tagline">
+<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html">IRCC processing time estimations</a> that can be bookmarked.</p>
+
+**Live:** [ircc-eta.r10r.dev](https://ircc-eta.r10r.dev)
+
+</div>
+
+<div class="content-card">
+
 ## 😴 httpsleep
 
 <p class="card-tagline">Test how your application handles slow network requests, timeouts, and loading states.</p>
