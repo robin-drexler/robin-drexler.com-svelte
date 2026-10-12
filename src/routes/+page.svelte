@@ -5,7 +5,7 @@
 <div class="my-9 flex flex-wrap md:flex-nowrap gap-9 items-start">
 	<div class="shrink-0">
 		<img
-			src="/img/me_2019.jpg"
+			src="/img/me_2026.jpg"
 			alt="Robin Drexler"
 			width="260"
 			height="260"

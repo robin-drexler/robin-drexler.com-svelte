@@ -4,7 +4,11 @@ export default {
 	darkMode: 'media',
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				hand: ['Kalam', 'cursive']
+			}
+		}
 	},
 	plugins: []
 };

@@ -11,6 +11,17 @@
 	}
 </script>
 
+<svelte:head>
+	{#if node.photos.length > 0}
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	{/if}
+</svelte:head>
+
 {#if node.folders.length > 0}
 	<div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
 		{#each node.folders as folder (folder.url)}
@@ -71,6 +82,13 @@
 					class="absolute -top-3 left-1/2 h-6 w-24 -translate-x-1/2 bg-fuchsia-300/60 backdrop-blur-[2px] rounded-[2px] shadow-sm ring-1 ring-black/5"
 					style="rotate: calc(var(--tilt) * -0.6)"
 				></div>
+				{#if photo.title}
+					<span
+						class="pointer-events-none absolute inset-x-0 bottom-0 flex min-h-[3.5rem] items-center justify-center px-3 text-center font-hand text-base leading-tight text-gray-700"
+					>
+						{photo.title}
+					</span>
+				{/if}
 			</a>
 		{/each}
 	</div>
