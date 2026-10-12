@@ -17,7 +17,7 @@
 			<a
 				href={folder.url}
 				on:click|preventDefault={() => onOpenFolder(folder)}
-				class="group rounded-2xl overflow-hidden bg-white/5 ring-1 ring-white/10 transition-colors hover:bg-white/10 hover:ring-white/20 no-underline hover:no-underline"
+				class="group rounded-2xl overflow-hidden bg-white shadow-sm ring-1 ring-fuchsia-100 transition-colors hover:ring-fuchsia-200 no-underline hover:no-underline"
 			>
 				{#if folder.photos[0]}
 					<img
@@ -31,11 +31,11 @@
 						class="w-full object-cover aspect-[4/3] transition-transform duration-500 group-hover:scale-[1.04]"
 					/>
 				{:else}
-					<div class="w-full aspect-[4/3] bg-gradient-to-br from-white/5 to-transparent"></div>
+					<div class="w-full aspect-[4/3] bg-gradient-to-br from-fuchsia-50 to-transparent"></div>
 				{/if}
 				<div class="p-4">
-					<div class="font-semibold text-gray-100 group-hover:text-white">{folder.title}</div>
-					<div class="text-sm text-gray-400 mt-1">{allPhotos(folder)} photos</div>
+					<div class="font-semibold text-gray-900 group-hover:text-fuchsia-600">{folder.title}</div>
+					<div class="text-sm text-gray-500 mt-1">{allPhotos(folder)} photos</div>
 				</div>
 			</a>
 		{/each}
@@ -54,7 +54,7 @@
 				href={photo.url}
 				on:click|preventDefault={() => onOpen(photo.file)}
 				style="--tilt:{photo.tilt}deg"
-				class="group relative block rounded-[2px] ring-1 ring-black/20 rotate-[var(--tilt)] transition-transform duration-300 hover:rotate-0 hover:scale-[1.04] hover:-translate-y-1 no-underline hover:no-underline"
+				class="group relative block px-4 pt-3 pb-14 rounded-[2px] bg-gradient-to-br from-white via-white to-neutral-200 ring-1 ring-black/10 shadow-[0_12px_24px_-6px_rgba(0,0,0,0.35),0_2px_6px_rgba(0,0,0,0.18)] rotate-[var(--tilt)] transition-transform duration-300 hover:rotate-0 hover:scale-[1.04] hover:-translate-y-1 no-underline hover:no-underline"
 			>
 				<img
 					src={photo.thumb}
@@ -64,11 +64,11 @@
 					width={photo.width}
 					height={photo.height}
 					style:view-transition-name={openingSlug === node.slug && i === 0 ? `art-cover-${node.slug}` : undefined}
-					class="w-full h-auto rounded-[2px] bg-neutral-200"
+					class="w-full h-auto bg-fuchsia-100 ring-1 ring-black/15 shadow-md shadow-black/25"
 				/>
 				<div
 					aria-hidden="true"
-					class="absolute -top-3 left-1/2 h-6 w-24 -translate-x-1/2 bg-[rgba(255,255,255,0.55)] backdrop-blur-[2px] rounded-[2px] shadow-sm ring-1 ring-black/5"
+					class="absolute -top-3 left-1/2 h-6 w-24 -translate-x-1/2 bg-fuchsia-300/60 backdrop-blur-[2px] rounded-[2px] shadow-sm ring-1 ring-black/5"
 					style="rotate: calc(var(--tilt) * -0.6)"
 				></div>
 			</a>

@@ -4,19 +4,23 @@
 
 @layer base {
 	h1 {
-		@apply text-3xl;
+		@apply text-3xl text-fuchsia-700;
 	}
 
 	h2 {
-		@apply text-2xl mb-4 font-semibold;
+		@apply text-2xl mb-4 font-semibold text-fuchsia-700;
 	}
 	h2:not(:first-child) {
 		@apply mt-9;
 	}
+
+	h3 {
+		@apply text-fuchsia-700;
+	}
 }
 
 a {
-	@apply text-yellow-200 hover:text-yellow-500 visited:text-yellow-500;
+	@apply text-fuchsia-700 font-medium hover:text-fuchsia-500 visited:text-fuchsia-700;
 }
 
 .post-body > p {
@@ -49,6 +53,14 @@ html,
 	height: 100%;
 }
 
+body::before {
+	content: '';
+	position: fixed;
+	inset: 0;
+	z-index: -1;
+	background: linear-gradient(to bottom, #ffffff 0%, #fdf4ff 35%, #fae8ff 100%);
+}
+
 a:hover {
 	text-decoration: underline;
 }
@@ -69,17 +81,19 @@ a:hover {
 /* These mirror the ContentCard, CardTagline, CardFooter Svelte components */
 .content-card {
 	@apply rounded-2xl p-6 mb-6 border transition-colors overflow-x-hidden;
-	background-color: rgba(255, 255, 255, 0.08);
-	border-color: rgba(255, 255, 255, 0.1);
+	background-color: #ffffff;
+	border-color: #fae8ff;
+	box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.04);
 }
 
 .content-card:hover {
-	background-color: rgba(255, 255, 255, 0.1);
-	border-color: rgba(255, 255, 255, 0.15);
+	background-color: #ffffff;
+	border-color: #f5d0fe;
+	box-shadow: 0 4px 12px -2px rgb(192 38 211 / 0.14);
 }
 
 .content-card--highlight {
-	background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 200, 100, 0.1));
+	background: linear-gradient(135deg, #ffffff, #fae8ff);
 }
 
 .content-card h2 {
@@ -108,13 +122,13 @@ a:hover {
 }
 
 .card-tagline {
-	@apply text-gray-300 mb-4 text-base leading-relaxed;
+	@apply text-gray-600 mb-4 text-base leading-relaxed;
 }
 
 .card-footer {
-	@apply mt-4 pt-4 border-t border-gray-700/50;
+	@apply mt-4 pt-4 border-t border-fuchsia-100;
 }
 
 .card-footer p {
-	@apply text-sm text-gray-400 my-0;
+	@apply text-sm text-gray-500 my-0;
 }

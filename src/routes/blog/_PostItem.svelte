@@ -16,7 +16,7 @@
 	>
 		{post.attributes.title}
 	</a>
-	<div class="text-sm text-gray-400 mt-1">
+	<div class="text-sm text-gray-500 mt-1">
 		<FormattedDate dateString={post.attributes.date} />
 	</div>
 </li>

@@ -9,36 +9,31 @@
 			alt="Robin Drexler"
 			width="260"
 			height="260"
-			class="aspect-square max-h-[260px] max-w-[260px] rounded-2xl shadow-lg ring-1 ring-white/10"
+			class="aspect-square max-h-[260px] max-w-[260px] rounded-2xl shadow-lg ring-1 ring-fuchsia-100"
 		/>
 	</div>
 	<div class="space-y-4">
 		<h1 class="text-4xl font-bold">
 			Hi! <span style:view-transition-name="wave">👋</span>
 		</h1>
-		<p class="text-xl text-gray-300 leading-relaxed">
-			I'm Robin, a web developer who loves building things for the web.
+		<p class="text-xl text-gray-600 leading-relaxed">
+			I'm Robin, yet another human being wandering our beautiful planet.
 		</p>
-		<p class="text-gray-400 leading-relaxed">
-			Check out my <a href="/projects/">projects</a> to see what I've been working on, or browse my
-			<a href="https://github.com/robin-drexler/" title="GitHub">GitHub profile</a>.
+		<p class="text-gray-500 leading-relaxed">
+			Feel free to browse around and explore some of the things I've built and done.
 		</p>
-		<p class="text-gray-400 leading-relaxed">
-			I share knowledge through
-			<a href="https://twitter.com/search?q=TIL%20from%3Arobindrexler&src=typd&f=live"
-				>"Today I learned" moments</a
-			>,
-			<a href="/talks/">talks</a>, and occasionally on my <a href="/blog/">blog</a>.
+		<p class="text-gray-500 leading-relaxed">
+			Don't hesitate to get in touch and say "hi" using any of the options below.
 		</p>
 	</div>
 </div>
 
-<div class="mt-12 pt-8 border-t border-white/10">
+<div class="mt-12 pt-8 border-t border-fuchsia-100">
 	<h2 class="text-xl font-semibold mb-6">Get in touch</h2>
 	<div class="flex flex-wrap gap-4">
 		<a
 			href="mailto:drexler.robin+frompage@gmail.com"
-			class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 transition-colors text-gray-300 hover:text-white no-underline hover:no-underline"
+			class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white hover:bg-fuchsia-50 border border-fuchsia-200 transition-colors text-gray-700 hover:text-fuchsia-600 no-underline hover:no-underline"
 		>
 			<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 				<path
@@ -52,7 +47,7 @@
 		</a>
 		<a
 			href="https://www.linkedin.com/in/robin-drexler-10537133/"
-			class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 transition-colors text-gray-300 hover:text-white no-underline hover:no-underline"
+			class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white hover:bg-fuchsia-50 border border-fuchsia-200 transition-colors text-gray-700 hover:text-fuchsia-600 no-underline hover:no-underline"
 		>
 			<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
 				<path
@@ -63,7 +58,7 @@
 		</a>
 		<a
 			href="https://twitter.com/RobinDrexler"
-			class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 transition-colors text-gray-300 hover:text-white no-underline hover:no-underline"
+			class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white hover:bg-fuchsia-50 border border-fuchsia-200 transition-colors text-gray-700 hover:text-fuchsia-600 no-underline hover:no-underline"
 		>
 			<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
 				<path
@@ -74,7 +69,7 @@
 		</a>
 		<a
 			href="https://github.com/robin-drexler"
-			class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 transition-colors text-gray-300 hover:text-white no-underline hover:no-underline"
+			class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white hover:bg-fuchsia-50 border border-fuchsia-200 transition-colors text-gray-700 hover:text-fuchsia-600 no-underline hover:no-underline"
 		>
 			<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
 				<path

@@ -55,19 +55,19 @@
 </svelte:head>
 
 {#if data.node.crumbs.length > 0}
-	<nav class="mb-8 text-sm text-gray-400 flex flex-wrap items-center gap-1.5">
+	<nav class="mb-8 text-sm text-gray-500 flex flex-wrap items-center gap-1.5">
 		{#each data.node.crumbs as crumb, i (i)}
-			<a class="hover:text-yellow-300 hover:underline" href={crumb.url}>{crumb.title}</a>
+			<a class="hover:text-fuchsia-600 hover:underline" href={crumb.url}>{crumb.title}</a>
 			<span aria-hidden="true">/</span>
 		{/each}
-		<span class="text-gray-100">{data.node.title}</span>
+		<span class="text-gray-900">{data.node.title}</span>
 	</nav>
 {/if}
 
 <h1 class="text-4xl font-bold">{data.node.title}</h1>
 
 {#if data.node.note}
-	<p class="mt-3 mb-2 text-gray-300 leading-relaxed">{data.node.note}</p>
+	<p class="mt-3 mb-2 text-gray-600 leading-relaxed">{data.node.note}</p>
 {/if}
 
 <Gallery node={data.node} {openingSlug} onOpen={open} onOpenFolder={openFolder} />

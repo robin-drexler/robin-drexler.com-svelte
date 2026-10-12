@@ -10,8 +10,11 @@
 	$: lastTo = $lastNav.to?.url?.pathname;
 </script>
 
-<ContentWrapper className="flex justify-between items-center my-4" tag="nav">
-	<a class="text-2xl font-thin inline-block nav-main-link" href="/"
+<ContentWrapper
+	className="flex flex-col items-center gap-2 sm:flex-row sm:justify-between sm:gap-0 my-4"
+	tag="nav"
+>
+	<a class="text-2xl font-thin inline-block nav-main-link whitespace-nowrap" href="/"
 		>Robin Drexler
 
 		{#if $page.url.pathname !== '/'}
@@ -21,7 +24,7 @@
 		{/if}
 	</a>
 
-	<div class="flex space-x-6">
+	<div class="flex flex-wrap justify-center gap-x-6 gap-y-1">
 		<a href="/talks">Talks</a>
 		<a href="/projects">Projects</a>
 		<a href="/blog">Blog</a>
