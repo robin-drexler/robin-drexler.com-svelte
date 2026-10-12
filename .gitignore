@@ -6,6 +6,9 @@ node_modules
 /.svelte-kit
 /build
 
+# Generated art thumbnails
+/static/art/.thumbs
+
 # OS
 .DS_Store
 Thumbs.db

@@ -1,6 +1,6 @@
 <script>
 	import { setContext } from 'svelte';
-	import { writable, get } from 'svelte/store';
+	import { writable } from 'svelte/store';
 	import '../app.css';
 	import Nav from '$lib/Nav.svelte';
 	import Footer from '$lib/Footer.svelte';

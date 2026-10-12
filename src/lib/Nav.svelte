@@ -25,6 +25,7 @@
 		<a href="/talks">Talks</a>
 		<a href="/projects">Projects</a>
 		<a href="/blog">Blog</a>
+		<a href="/art">"Art"</a>
 	</div>
 </ContentWrapper>
 
