@@ -39,7 +39,8 @@ export const artManifest: ArtFolder = {
 				{ file: 'silly-goose-on-the-loose.jpeg', title: 'Silly Goose on the loose' },
 				{ file: 'poopin.jpeg', title: "Poopin'" },
 				{ file: 'pumpkin.jpeg', title: 'Pumpkin' },
-				{ file: 'bootine.jpeg', title: 'Boootine 👻' }
+				{ file: 'bootine.jpeg', title: 'Boootine 👻' },
+				{ file: 'tori-gate.jpg', title: 'Tori Gate' }
 			]
 		}
 	]
