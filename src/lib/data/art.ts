@@ -40,7 +40,8 @@ export const artManifest: ArtFolder = {
 				{ file: 'poopin.jpeg', title: "Poopin'" },
 				{ file: 'pumpkin.jpeg', title: 'Pumpkin' },
 				{ file: 'bootine.jpeg', title: 'Boootine 👻' },
-				{ file: 'tori-gate.jpg', title: 'Tori Gate' }
+				{ file: 'tori-gate.jpg', title: 'Tori Gate' },
+				{ file: 'window.jpg', title: 'Window' }
 			]
 		}
 	]
