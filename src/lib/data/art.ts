@@ -42,7 +42,8 @@ export const artManifest: ArtFolder = {
 				{ file: 'bootine.jpeg', title: 'Boootine 👻' },
 				{ file: 'tori-gate.jpg', title: 'Tori Gate' },
 				{ file: 'window.jpg', title: 'Window' },
-				{ file: 'cereal-killer.JPG', title: 'Cereal Killer' }
+				{ file: 'cereal-killer.JPG', title: 'Cereal Killer' },
+				{ file: 'two-birds-one-scone.jpg', title: 'Two Birds One Scone' }
 			]
 		}
 	]
