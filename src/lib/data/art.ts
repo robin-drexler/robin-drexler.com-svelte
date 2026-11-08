@@ -46,7 +46,9 @@ export const artManifest: ArtFolder = {
 				{ file: 'two-birds-one-scone.jpg', title: 'Two Birds One Scone' },
 				{ file: 'blue-wave.jpeg', title: 'Blue Wave' },
 				{ file: 'hey-listen.jpg', title: 'Hey! Listen!' },
-				{ file: 'boop.jpg', title: 'Boop' }
+				{ file: 'boop.jpg', title: 'Boop' },
+				{ file: 'dryden.jpg', title: 'Dryden (Copy/Homage)' },
+				{ file: 'lamp-post.jpg', title: 'Lamp Post' }
 			]
 		}
 	]
