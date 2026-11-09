@@ -50,6 +50,10 @@ export const artManifest: ArtFolder = {
 				{ file: 'dryden.jpg', title: 'Dryden (Copy/Homage)' },
 				{ file: 'lamp-post.jpg', title: 'Lamp Post' }
 			]
+		},
+		{
+			title: 'Misc',
+			photos: [{ file: 'faces-of-sky.jpg', title: 'Faces of Sky' }]
 		}
 	]
 };
